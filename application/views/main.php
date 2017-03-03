@@ -20,19 +20,22 @@
   </head>
   <body>
   <div class="header">
-    <form class="navbar-form navbar-left" role="search">
-      <div class="form-group">
-        <input type="text" class="form-control" placeholder="Search">
-      </div>
-      <button type="submit" class="btn btn-default">Отправить</button>
-    </form>
-    <div class="cart"></div>
-    <a href="#" class="login">Вход</a>
+    <div class="col-md-3">
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Найти...">
+        </div>
+        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span> Поиск</button>
+      </form>
+    </div>
+    <div class="col-md-5 phone">Отдел продаж <br><span>+7(904)000-1-888</span></div>
+    <div class="cart col-md-2"></div>
+    <a href="#" class="login col-md-2">Вход</a>
     <div class="clear"></div>
   </div>
     <div class="wrapper">
       <div class="rows">
-          <nav>
+          <nav class="col-md-12">
             <ul class="nav nav-pills">
               <li><a href="#">Главная</a></li>
               <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Услуги от прорабыча</a>
@@ -47,6 +50,7 @@
               <li><a href="#">Контакты</a></li>
             </ul>
           </nav>
+          <div class="clear"></div>
         <div class="content">
         <h1>Hello, world!</h1>
         </div>
