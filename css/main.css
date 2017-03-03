@@ -1,0 +1,39 @@
+*{padding: 0; margin: 0;border:0;font-family:"Arial", sans siref;}
+.clear{
+  clear: both;
+}
+body{
+	background-image: url(/img/bground.jpg);
+}
+.wrapper{
+	width: 1100px;
+	background-color: white;
+	margin: 0 auto;
+	border-radius: 10px;
+	padding: 15px;
+}
+.header{
+	width: 100%;
+	background-color:white;
+}
+.nav {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+  padding-left: 0; /*убираем левый отступ, равный 40px*/
+}
+.nav li {display: inline-block;}
+.nav a {
+  color: black;
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+}
+.sub li{
+	 display: list-item;
+}
+.login{
+	float: right;
+	font-weight: bold;
+	color: red;
+	display: block;
+	padding-right: 30px;
+}
+.cart
